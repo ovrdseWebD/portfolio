@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ovrdse Design & Development</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/cover/">
+    <!-- font-->
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cinzel:wght@500&family=Great+Vibes&family=Jim+Nightshade&family=Lora&family=Nanum+Gothic&family=Nanum+Myeongjo&family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="bootstrap.min.css" rel="stylesheet">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      * {font-family: 'Lora', serif;
+}
+
+  
+canvas {
+ cursor: auto;
+ position:absolute;
+      left:0;
+      top:0;
+      pointer-events: auto;
+
+}
+
+.mb-auto, .px-3, .lead, .mt-auto {
+  z-index: 1;
+}
+
+.mb-auto {
+  font-size: medium;
+}
+
+h1 {
+  font-size: xxx-large;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  font-family: 'Lexend', sans-serif;
+  
+}
+
+.lead {
+  font-size: larger;
+  color: rgb(145, 145, 145);
+  text-align: left;
+  font-stretch: narrower;
+  font-family: 'Lexend', sans-serif;
+}
+
+.lead1 {
+  font-size: small;
+  color: rgba(255, 255, 255, 0.671);
+  text-align: right;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 45%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color */
+.icon-bar a:hover {
+  background-color: #000;
+ 
+}
+
+.facebook {
+  background: #000000;
+  color: white;
+
+}
+
+.twitter {
+  background: #000000d8;
+  color: white;
+}
+
+.google {
+  background: #000000c4;
+  color: white;
+}
+
+.linkedin {
+  background: #000000af;
+  color: white;
+}
+
+.youtube {
+  background: #0000007c;
+  color: white;
+}
+
+@media screen and (max-width: 750px) {
+  .icon-bar {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
+
+hr {
+  color: rgb(255, 255, 255);
+}
+
+
+    </style>
+
+    
+    <!-- Custom styles -->
+    <link href="cover.css" rel="stylesheet">
+
+  
+    
+    
+  </head>
+
+  <body class="d-flex h-100 text-center text-dark bg-dark">    
+    <div class="grain"></div>
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  
+  <header class="mb-auto">
+   
+    <div>
+      <h3 class="float-md-start mb-0 text-light">ovrdse</h3>
+      <nav class="nav nav-masthead justify-content-center float-md-end">
+        <a class="nav-link" href="index.html">home</a>
+        <a class="nav-link" href="projects.html">projects</a>
+        <a class="nav-link active text-light" aria-current="page" href="contactme.html">contact me</a>
+      </nav>
+    </div>
+  
+  </header>
+
+  <main class="px-3">
+    <h1>Contact Me Here<font color="red">.</font></h1>
+    <hr>
+    <p class="lead">
+        Email: markr.webd@gmail.com <br>
+        Number: 3064902611 <br> 
+        Location: Olds, AB <br>
+        Other Email: musicovrdse@gmail.com 
+    
+    </p>
+
+    <p class="lead1">thank you for checking out my portfolio :) </p>
+    
+    
+  </main>
+
+  <footer class="mt-auto text-white-50">
+    <p>this website was made <a href="" class="text-white"></a> by <a href="https://www.instagram.com/ovrdsemusic/" class="text-white">@ovrdsemusic</a>.</p>
+  </footer>
+</div>
+
+
+
+
+<canvas id='canvas'></canvas>
+
+
+
+<script src="bootstrap.bundle.min.js"></script>
+<script src="canvas.js"></script>
+    
+  </body>
+</html>
